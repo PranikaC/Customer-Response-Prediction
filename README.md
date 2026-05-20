@@ -84,15 +84,15 @@ This is a binary classification problem with strong class imbalance (~88.7% clas
 
 ### Prior Outcome Drives Acceptance
 
-<img src="images/acceptance-by-prior-outcome.png" alt="Acceptance rate by prior outcome status" width="500">
+<img src="acceptance-by-prior-outcome.png" alt="Acceptance rate by prior outcome status" width="500">
 
 ### Timing Matters
 
-<img src="images/acceptance-by-contact-month.png" alt="Acceptance rate by last contact month" width="500">
+<img src="acceptance-by-contact-month.png" alt="Acceptance rate by last contact month" width="500">
 
 ### Engagement Length Separates Classes
 
-<img src="images/contact-time-by-offer.png" alt="Contact time by accepted vs declined" width="500">
+<img src="contact-time-by-offer.png" alt="Contact time by accepted vs declined" width="500">
 
 ---
 
