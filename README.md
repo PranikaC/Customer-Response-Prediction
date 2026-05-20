@@ -84,15 +84,15 @@ This is a binary classification problem with strong class imbalance (~88.7% clas
 
 ### Prior Outcome Drives Acceptance
 
-<img src="acceptance-by-prior-outcome.png" alt="Acceptance rate by prior outcome status" width="500">
+<img src="images/acceptance-by-prior-outcome.png" alt="Acceptance rate by prior outcome status" width="500">
 
 ### Timing Matters
 
-<img src="acceptance-by-contact-month.png" alt="Acceptance rate by last contact month" width="500">
+<img src="images/acceptance-by-contact-month.png" alt="Acceptance rate by last contact month" width="500">
 
 ### Engagement Length Separates Classes
 
-<img src="contact-time-by-offer.png" alt="Contact time by accepted vs declined" width="500">
+<img src="images/contact-time-by-offer.png" alt="Contact time by accepted vs declined" width="500">
 
 ---
 
@@ -193,7 +193,7 @@ The strongest models emphasized recall for customers likely to accept an offer, 
 
 The top-25 LightGBM importances confirm the EDA story: contact length, the reference interest rate, customer age, and the contact attempt count carry the bulk of the predictive weight, followed by day-of-week and month indicators.
 
-<img src="lgbm-feature-importance.png" alt="Top 25 LightGBM feature importances" width="500">
+<img src="images/lgbm-feature-importance.png" alt="Top 25 LightGBM feature importances" width="500">
 
 ---
 
