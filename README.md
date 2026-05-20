@@ -76,7 +76,7 @@ This is a binary classification problem with strong class imbalance (~88.7% clas
 
 # Exploratory Data Analysis (EDA)
 
-### Key Insights
+### Key Findings
 - Customers whose previous marketing contact was a success accept the new offer roughly **64%** of the time, versus around **9–14%** for "nonexistent" or "failure" histories — the single strongest categorical signal in the data
 - Acceptance rates are nearly an order of magnitude higher in March, December, September, and October than in the high-volume May contact window
 - Accepted offers were consistently associated with longer conversations — the accepted-offer median for `contact_time_minutes` sits well above the declined-offer upper quartile
