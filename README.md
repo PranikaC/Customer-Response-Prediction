@@ -193,7 +193,7 @@ The strongest models emphasized recall for customers likely to accept an offer, 
 
 The top-25 LightGBM importances confirm the EDA story: contact length, the reference interest rate, customer age, and the contact attempt count carry the bulk of the predictive weight, followed by day-of-week and month indicators.
 
-<img src="images/lgbm-feature-importance.png" alt="Top 25 LightGBM feature importances" width="500">
+<img src="lgbm-feature-importance.png" alt="Top 25 LightGBM feature importances" width="500">
 
 ---
 
