@@ -28,12 +28,12 @@ The project demonstrates how gradient-boosting models, paired with hand-crafted 
 ```mermaid
 %%{init: {"theme": "default", "themeVariables": {"fontSize": "11px"}, "flowchart": {"nodeSpacing": 25, "rankSpacing": 30}}}%%
 flowchart TD
-    A[Raw Customer Data] --> B[Data Cleaning]
-    B --> C[EDA & Response Rate Analysis]
-    C --> D[Feature Engineering]
-    D --> E[Preprocessing Pipelines]
-    E --> F[Model Training & Optuna Tuning]
-    F --> G[Cross-Validated Evaluation]
+    A[Raw Customer Data] --> B[EDA & Class Balance Check]
+    B --> C[Preprocessing Pipelines]
+    C --> D[Drop Correlated Features]
+    D --> E[Feature Engineering]
+    E --> F[Model Training + Optuna Tuning]
+    F --> G[Stratified 5-Fold CV]
     G --> H[Weighted Soft-Voting Ensemble]
     H --> I[Final Acceptance Predictions]
 ```
