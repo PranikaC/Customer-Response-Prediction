@@ -136,23 +136,6 @@ The notebook derives a set of engagement, financial-risk, and macroeconomic flag
 
 ---
 
-# Modeling Approach
-
-The notebook compares several model families and ends with a weighted soft-voting ensemble of the two strongest learners.
-
-```mermaid
-%%{init: {"theme": "default", "themeVariables": {"fontSize": "11px"}, "flowchart": {"nodeSpacing": 25, "rankSpacing": 30}}}%%
-flowchart LR
-    A[Preprocessed Features] --> B[Logistic Regression]
-    A --> C[Random Forest]
-    A --> D[Extra Trees]
-    A --> E[LightGBM + Optuna]
-    E --> F[OOF Probabilities]
-    C --> F
-    F --> G[0.3 × LGBM + 0.7 × RF]
-    G --> H[Threshold Tuning]
-    H --> I[Final Predictions]
-```
 
 ### Training Configuration
 - Cross-Validation: Stratified 5-fold
